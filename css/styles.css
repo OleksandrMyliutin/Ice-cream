@@ -1,204 +1,194 @@
 /* #region SECTION HEADER */
 .header {
-    position: absolute;
-    top: 10px;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-    background-color: transparent;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: transparent;
 }
 
 .header-nav {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header-list-menu {
-    display: flex;
-    gap: 34px;
-    align-items: center;
+  display: flex;
+  gap: 34px;
+  align-items: center;
 }
 
 .header-list-menu .nav-list {
-    font-weight: 700;
-    font-size: 16px;
-    color: #fff;
-    transition: color 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  transition: color 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .header-list-menu .nav-list:hover {
-    color: #d41443;
+  color: #d41443;
 }
 
 #active {
-    color: #d41443;
+  color: #d41443;
 }
 
 .menu-btn {
-    border-radius: 22px;
-    min-width: 159px;
-    height: 44px;
-    background: #fff;
-    transition: background-color 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  border-radius: 22px;
+  min-width: 159px;
+  height: 44px;
+  background: #fff;
+  transition: background-color 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .menu-btn:hover {
-    background: #ecebeb;
-    ;
+  background: #ecebeb;
 }
 
 .style-btn {
-    font-weight: 700;
-    font-size: 16px;
-    text-align: center;
-    color: #d41443;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #d41443;
 }
 
 .header-btn-cont {
-    display: block;
-    margin-top: 50px;
+  display: block;
+  margin-top: 50px;
 }
 /* #endregion */
 
-
 /* #region SECTION HERO */
 .hero {
-    position: relative;
-    background-color: rgba(255, 184, 202, 1);
+  position: relative;
+  background-color: rgba(255, 184, 202, 1);
 }
 
 .hero-container {
-    position: relative;
-    z-index: 1;
-    padding-top: 170px;
-    background-image: url(../images/botle_milk.png),
-        url(../images/ice-cream.png),
-        url(../images/ice-cream_girl.png),
-        url(../images/Ellipse\ 3.png);
-    background-repeat: no-repeat;
-    background-position:
-        bottom 60px left 0px,
-        bottom right 310px,
-        bottom right 0px,
-        bottom 85px right 110px;
-    height: 730px;
-    background-size: auto, 236px 600px, auto, 564px 564px;
+  position: relative;
+  z-index: 1;
+  padding-top: 170px;
+  background-image: url(../images/botle_milk.png), url(../images/ice-cream.png),
+    url(../images/ice-cream_girl.png), url(../images/Ellipse\ 3.png);
+  background-repeat: no-repeat;
+  background-position: bottom 60px left 0px, bottom right 310px,
+    bottom right 0px, bottom 85px right 110px;
+  height: 730px;
+  background-size: auto, 236px 600px, auto, 564px 564px;
 }
 
 .container-h1-img-position {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .hero-text-style {
-    font-weight: 400;
-    font-size: 38px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #fff;
-    max-width: 277px;
-    font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-size: 38px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  max-width: 277px;
+  font-family: "Titan One", sans-serif;
 }
 
 .passion-style {
-    font-size: 58px;
-    line-height: 0.905;
-    color: #d41443;
+  font-size: 58px;
+  line-height: 0.905;
+  color: #d41443;
 }
 
 .btn-hero-position {
-    margin-top: 12px;
+  margin-top: 12px;
 }
 
 .btn-hero-product {
-    border-radius: 20px;
-    min-width: 107px;
-    height: 40px;
-    background: #d41443;
-    transition: background-color 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  border-radius: 20px;
+  min-width: 107px;
+  height: 40px;
+  background: #d41443;
+  transition: background-color 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .btn-hero-product:hover {
-    background: #bc133d;
+  background: #bc133d;
 }
 
 .btn-hero-how-made {
-    border-radius: 20px;
-    min-width: 138px;
-    height: 40px;
-    background: #fff;
-    transition: background-color 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  border-radius: 20px;
+  min-width: 138px;
+  height: 40px;
+  background: #fff;
+  transition: background-color 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .btn-hero-how-made:hover {
-    background: #ecebeb;
+  background: #ecebeb;
 }
 
 .btn-hero-text-style-one {
-    font-weight: 400;
-    font-size: 14px;
-    text-align: center;
-    color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
 }
 
 .btn-hero-text-style-two {
-    font-weight: 400;
-    font-size: 14px;
-    text-align: center;
-    color: #d41443;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #d41443;
 }
 
 .container-hero-text-position {
-    position: absolute;
-    bottom: 90px;
-    left: 220px;
+  position: absolute;
+  bottom: 90px;
+  left: 220px;
 }
 
 /* Текст який знаходиться біля молока */
 
 .text-hero-position {
-    max-width: 175px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.4;
-    color: #fff;
+  max-width: 175px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #fff;
 }
 
 .circle-hero-button {
-    margin-top: 20px;
-    width: 26px;
-    height: 26px;
-    background-color: white;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    transition: background-color 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
-    /* Іконка мишки при наведенні */
+  margin-top: 20px;
+  width: 26px;
+  height: 26px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  /* Іконка мишки при наведенні */
 }
 
 .circle-hero-button i {
-    font-size: 10px;
-    color: #e63946;
-    /* Колір стрілки */
+  font-size: 10px;
+  color: #e63946;
+  /* Колір стрілки */
 }
 
 .circle-hero-button:hover {
-    background-color: #f1f1f1;
+  background-color: #f1f1f1;
 }
 /* #endregion */
-
 
 /* #region SECTION PRODUCTS */
 
 /* #endregion */
 
-
 /* #region SECTION HOW IT'S MADE */
 
 /* #endregion */
-
 
 /* #region SECTION REVIEWS */
 .reviews-section {
@@ -314,12 +304,472 @@
 }
 /* #endregion */
 
-
 /* #region SECTION LOCATIONS */
 
 /* #endregion */
 
-
 /* #region SECTION FOOTER */
+
+/* .container {
+  max-width: 320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+} */
+
+.through {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+
+  background: #fff5f6;
+}
+
+.location-card {
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 8px 30px 0 rgba(212, 20, 67, 0.1);
+  background: #fff;
+
+  border-radius: 24px;
+  margin-bottom: 20px;
+}
+
+.location-type {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.86;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+
+  margin-bottom: 17px;
+  display: inline-block;
+}
+
+.ttime {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.86;
+  color: #000;
+}
+
+.time {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.86;
+  color: #ffa5ba;
+}
+
+.hours {
+  display: flex;
+  flex-direction: column;
+  align-items: row;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.hours::before,
+.hours::after {
+  width: 100%;
+  height: 2px;
+  stroke-width: 1px;
+  background-color: #e1e1e1;
+  content: "";
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.discription {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #907e82;
+}
+
+.connection {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #907e82;
+  cursor: pointer;
+}
+
+.card-title {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.86;
+  letter-spacing: 0.04em;
+  color: #000;
+}
+
+.cafe {
+  background-color: #f0d1a5;
+  width: 80px;
+  height: 16px;
+}
+
+.food-truck {
+  background-color: #c2e297;
+  border-radius: 4px;
+  width: 130px;
+  height: 16px;
+}
+
+/* Кнопки */
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.buttons a {
+  margin: 10px 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.cta-buttons {
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  background-color: #d41443;
+  color: #ffffff;
+  border: none;
+
+  margin-bottom: 10px;
+  font-size: 1em;
+  cursor: pointer;
+
+  border-radius: 22px;
+  width: 161px;
+  height: 44px;
+
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+.cta-button-right {
+  background-color: #ffffff;
+  color: #d41443;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+
+  border: none;
+
+  border-radius: 22px;
+  width: 161px;
+  height: 44px;
+
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.connection:hover {
+  color: #d41443;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #d41342;
+}
+
+/* Контактна інформація */
+
+.box_footer {
+  padding-bottom: 40px;
+  max-width: 234px;
+  text-align: left;
+}
+
+.ice-cream-made {
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffa5ba;
+}
+
+.witch-passion {
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-size: 34px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #d41443;
+}
+
+.social-networks {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: #d41443;
+  display: block;
+  justify-self: flex-end;
+  flex-direction: column;
+}
+
+.icon-first {
+  width: 33px;
+  height: 32px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon_listf {
+  display: flex;
+  gap: 28px;
+  justify-content: flex-end;
+}
+
+.iconf_link {
+  background-color: #fea5bb;
+  border-radius: 100%;
+  display: flex;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.iconf {
+  fill: #f4f4fd;
+  display: flex;
+  gap: 30px;
+  border-radius: 50%;
+}
+
+.iconf:hover {
+  background-color: #d41443;
+}
+
+.iconf_link:hover,
+.iconf_link:focus {
+  background-color: #d41443;
+}
+
+.box-contactf {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.86;
+  text-align: right;
+}
+
+.contactf {
+  color: #000;
+}
+
+@media screen and (min-width: 768px) {
+  .through {
+    padding: 16px;
+  }
+
+  .locations {
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+    margin-bottom: 60px;
+  }
+
+  .location-type {
+    font-size: 16px;
+  }
+
+  .location-card {
+    margin-bottom: 0;
+  }
+
+  .ttime {
+    font-size: 14px;
+  }
+
+  .time {
+    font-size: 14px;
+  }
+
+  .hours {
+    gap: 12px;
+  }
+
+  .hours::before,
+  .hours::after {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  .discription {
+    font-size: 14px;
+    line-height: 1.66;
+  }
+
+  .connection {
+    font-size: 14px;
+    line-height: 1.83;
+  }
+
+  .card-title {
+    font-size: 14px;
+  }
+
+  .cafe {
+    width: 73px;
+    height: 28px;
+  }
+
+  .food-truck {
+    border-radius: 6px;
+    width: 138px;
+    height: 28px;
+  }
+
+  .cta-buttons {
+    margin-top: 0;
+  }
+
+  .cta-button {
+    margin-right: 14.5px;
+
+    width: 191px;
+  }
+
+  .cta-button-right {
+    width: 174px;
+  }
+
+  .containerf {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .box_footer {
+    max-width: 340px;
+  }
+
+  .ice-cream-made {
+    font-size: 26px;
+    letter-spacing: 0.04em;
+  }
+
+  .witch-passion {
+    font-size: 48px;
+    letter-spacing: 0.06em;
+  }
+
+  .social-networks {
+    font-size: 14px;
+    line-height: 1.86;
+    text-align: right;
+  }
+
+  .icon-first {
+    width: 34px;
+    height: 34px;
+  }
+
+  .icon_listf {
+    gap: 30px;
+  }
+
+  .box-contactf {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .ttime {
+    font-size: 16px;
+    letter-spacing: 0.04em;
+  }
+
+  .time {
+    font-size: 16px;
+  }
+
+  .discription {
+    font-size: 16px;
+    line-height: 1.83;
+  }
+
+  .connection {
+    font-size: 16px;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .cafe {
+    border-radius: 6px;
+    width: 75px;
+  }
+
+  .cta-buttons {
+    margin-bottom: 120px;
+  }
+
+  .cta-button {
+    margin-right: 12px;
+    width: 198px;
+  }
+
+  .cta-button-right {
+    width: 168px;
+  }
+
+  .box_footer {
+    max-width: 474px;
+    padding: 0;
+    margin-bottom: 60px;
+  }
+
+  .ice-cream-made {
+    font-size: 30px;
+  }
+
+  .witch-passion {
+    font-size: 58px;
+  }
+
+  .social-networks {
+    font-size: 16px;
+  }
+
+  .box-contactf {
+    margin-bottom: 60px;
+  }
+}
 
 /* #endregion */

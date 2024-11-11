@@ -1,6 +1,18 @@
+/* #region SECTION HEADER */
+
+/* #endregion */
+
+
+/* #region SECTION HERO */
+
+/* #endregion */
+
+
+/* #region SECTION PRODUCTS */
 body {
     font-family: "DM Sans", sans-serif;
 }
+
 ul,
 ol {
     list-style-type: none;
@@ -96,7 +108,7 @@ img {
     height: 535px;
     background: #ffb8ca;
     display: block;
-    margin-top: 261px;  
+    margin-top: 261px;
 }
 
 .ice-coffee-box {
@@ -116,8 +128,6 @@ img {
     display: block;
     margin-top: 261px;
 }
-
-
 
 .products-subtittle {
     font-family: "Titan One", sans-serif;
@@ -165,7 +175,7 @@ img {
     margin-right: auto;
     width: 304px;
     height: 134px;
-    }
+}
 
 .arrow-link {
     padding-left: 164px;
@@ -173,6 +183,26 @@ img {
 
 .img-arrow {
     border-radius: 50%;
-
-    
 }
+
+/* #endregion */
+
+
+/* #region SECTION HOW IT'S MADE */
+
+/* #endregion */
+
+
+/* #region SECTION REVIEWS */
+
+/* #endregion */
+
+
+/* #region SECTION LOCATIONS */
+
+/* #endregion */
+
+
+/* #region SECTION FOOTER */
+
+/* #endregion */
